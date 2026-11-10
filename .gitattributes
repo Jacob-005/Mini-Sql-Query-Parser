@@ -1,0 +1,24 @@
+# Normalize line endings: store LF in the repository and check out LF on
+# every platform, so Windows does not rewrite files that Linux/macOS own.
+* text=auto eol=lf
+
+# Explicit text types used in this project
+*.py            text eol=lf
+*.md            text eol=lf
+*.sql           text eol=lf
+*.txt           text eol=lf
+*.toml          text eol=lf
+*.cfg           text eol=lf
+*.ini           text eol=lf
+*.yml           text eol=lf
+*.yaml          text eol=lf
+.gitignore      text eol=lf
+.gitattributes  text eol=lf
+
+# Binary files are never converted or diffed as text
+*.xlsx  binary
+*.xls   binary
+*.png   binary
+*.jpg   binary
+*.ico   binary
+*.zip   binary

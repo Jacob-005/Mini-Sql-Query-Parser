@@ -35,6 +35,9 @@ htmlcov/
 *.svg
 *.png
 
+# Local spreadsheet documents (review tracker and similar)
+*.xlsx
+
 # Freebuff editor metadata
 .freebuff/
 
